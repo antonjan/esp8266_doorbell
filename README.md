@@ -7,7 +7,7 @@ Just started not compleet yet.
 
 # Description
 I wanted to have a doorbel button that will trigger a MQTT message and send it to several mobile phoes to let them now there is somone at My gate.
-I would then look at my remo Camera on my mobile phone and they decide what to do.
+I would then look at my remote Camera on my mobile phone and they decide what to do.
 
 # Sofware
 1) MQTT server
