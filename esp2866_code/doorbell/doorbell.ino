@@ -5,16 +5,16 @@
 //My MQTT server will send message to node red witch will send event to my mobile phone by adding a image from my camera looking at the Gate button.
 //WIFI
 const char* wifi_ssid = "wifi";
-const char* wifi_password = "wifi-password";
+const char* wifi_password = "password";
 
 //MQTT
-const char* mqtt_server = "mqtt server ip";
-const char* mqtt_user = "mqtt username";
-const char* mqtt_password = "mqtt password";
+const char* mqtt_server = "192.168.10.114";//"mqtt.giga.co.za";
+const char* mqtt_user = "mqtt";
+const char* mqtt_password = "password";
 const char* clientID = "Doorbell";
 
 //VARS
-const char* doorbell_topic = "home/outdoors/doorbell";
+const char* doorbell_topic = "bassonia/outdoors/doorbell";
 const int doorbellPin = 0;
 int doorbellState = 0;
 
